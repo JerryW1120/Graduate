@@ -265,7 +265,7 @@ def recommend_with_predict(user):
     message2 = RES[1]
     top_sim_user_2 = message2[0]
     weight2 = message2[1]
-    print("最相似用户2的名字和相似度：\n", top_sim_user_2, "\n", weight1, "\n")
+    print("最相似用户2的名字和相似度：\n", top_sim_user_2, "\n", weight2, "\n")
 
     top_sim_user_1_data = data[top_sim_user_1]
     top_sim_user_2_data = data[top_sim_user_2]

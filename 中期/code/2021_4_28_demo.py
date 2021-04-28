@@ -3,6 +3,7 @@
     2.在调用recommend_with_predict函数时，避免对top10_simliar函数的重复调用，减少运行时间
     3.Laplace值通过库函数添加(np.random.laplace)
     4.预测算法改正，之前参数有错误
+    5.此处的预测分数未进行均值中心化
     大数据集：283228个用户，58099部电影
 '''
 
